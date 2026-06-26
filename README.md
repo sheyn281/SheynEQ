@@ -1,38 +1,96 @@
-# SheynEQ
+# 🎵 SheynEQ
 
-SheynEQ is a Chrome Manifest V3 extension built with React, TypeScript, Vite, and the Web Audio API.
+> **A modern Chrome audio enhancer built for people who love music.**
 
-## Privacy
+SheynEQ is a Chrome Manifest V3 extension built with **React**, **TypeScript**, **Vite**, and the **Web Audio API**.
+
+This project started because I couldn't find an equalizer that looked good, felt modern, and actually provided the controls I wanted. So I decided to build one myself.
+
+> ⚠️ **Beta**
+>
+> SheynEQ is currently in active development. Expect bugs, unfinished features, and frequent updates.
+
+---
+
+## ✨ Current Features
+
+- 🎚️ 10-band Equalizer
+- 🔊 Bass Boost
+- 🌊 Reverb
+- 🎵 Slowed + Reverb
+- 📈 Live Output Meter
+- 💾 Local settings persistence
+- 🌙 Dark / Light theme
+
+---
+
+## 🚧 Planned Features
+
+- Nightcore
+- Speed Control
+- Pitch Control
+- Volume Boost
+- Smart Bass Protection
+- Adaptive Bass Compression
+- Visual Audio Pulse
+- More audio effects
+
+---
+
+## 🔒 Privacy
+
+SheynEQ is designed to work completely locally.
 
 - No telemetry
 - No analytics
-- No user tracking
+- No tracking
 - No remote code execution
 - No `eval`
 - No `Function` constructor
 
-All settings are stored locally with `chrome.storage.local`.
+All settings are stored using `chrome.storage.local`.
 
-## Development
+---
+
+## 🛠 Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Production Build
+---
+
+## 📦 Build
 
 ```bash
 npm run build
 ```
 
-Load the generated `dist` directory in Chrome at `chrome://extensions` with Developer Mode enabled.
+Load the generated `dist` folder in:
 
-## First Alpha Usage
+```
+chrome://extensions
+```
 
-1. Build with `npm run build`.
-2. Load `dist` as an unpacked extension.
-3. Open a page with an HTML5 `<audio>` or `<video>` element.
-4. Press play, open SheynEQ, enable processing, then adjust EQ/effects.
+Enable **Developer Mode** → **Load unpacked** → select `dist`.
 
-For a local development target, open `public/demo.html` in Chrome. If using a `file://` URL, enable "Allow access to file URLs" for SheynEQ in `chrome://extensions`.
+---
+
+## 🚀 First Launch
+
+1. Build the project.
+2. Load `dist` into Chrome.
+3. Open a page with HTML5 audio/video.
+4. Play music.
+5. Open SheynEQ.
+6. Enable processing.
+7. Enjoy.
+
+---
+
+## ❤️ About
+
+**Made with ❤️ by Sheyn**
+
+**SheynEQ Beta • Made for music lovers**
